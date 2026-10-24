@@ -1,18 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Logo Seguridad y Talento">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 430" role="img" aria-label="Logo de Seguridad y Talento">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0f2f4d"/>
-      <stop offset="100%" stop-color="#1c7b77"/>
+    <linearGradient id="shieldLeft" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0d2e45"/>
+      <stop offset="100%" stop-color="#0a213a"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.96"/>
-      <stop offset="100%" stop-color="#dff6f4" stop-opacity="0.9"/>
+    <linearGradient id="shieldRight" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1e8d9c"/>
+      <stop offset="100%" stop-color="#5bc8c3"/>
+    </linearGradient>
+    <linearGradient id="core" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f2f4d"/>
+      <stop offset="100%" stop-color="#0f5b73"/>
     </linearGradient>
   </defs>
-  <rect width="200" height="200" rx="42" fill="url(#bg)"/>
-  <circle cx="100" cy="82" r="44" fill="url(#panel)" opacity="0.96"/>
-  <path d="M100 44c18 0 32 14 32 32 0 12-7 22-17 28-8 5-13 12-15 22h-2c-2-10-7-17-15-22-10-6-17-16-17-28 0-18 14-32 32-32Z" fill="#ff3366"/>
-  <path d="M64 131c8-17 23-27 36-27 13 0 28 10 36 27v19H64v-19Z" fill="#ffffff" opacity="0.95"/>
-  <path d="M58 146h84v12H58z" fill="#2ca6a4" opacity="0.9"/>
-  <path d="M72 66l14 13 25-25 18 18" fill="none" stroke="#0f2f4d" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>
+
+  <rect width="800" height="430" fill="#f2f2f2"/>
+
+  <g transform="translate(38 24)">
+    <path d="M126 18h228L210 364c-16-11-33-18-52-19-32-3-59 13-82 39L126 18Z" fill="url(#shieldLeft)" opacity="0.96"/>
+    <path d="M208 18h226L313 364c-16-11-33-18-52-19-32-3-59 13-82 39L208 18Z" fill="url(#shieldRight)" opacity="0.96"/>
+    <path d="M190 50h158c0 0-78 89-149 237l-9-8C194 237 190 50 190 50Z" fill="rgba(255,255,255,0.06)"/>
+
+    <path d="M238 84c65-53 138-53 189 0-18 17-36 30-54 39-7 4-17 9-23 14-10 8-16 17-21 25-6 8-12 18-19 35-6-16-11-27-18-35-9-11-20-18-31-26-11-8-22-13-36-23 7-11 15-22 23-29Z" fill="url(#core)" opacity="0.95"/>
+    <path d="M258 122c19-12 40-19 63-19 34 0 64 17 84 50-31-2-53 7-70 26-26 29-37 63-44 100-14-41-28-68-60-96 8-21 17-39 27-61Z" fill="#d7f5f6" opacity="0.92"/>
+
+    <path d="M150 207c71-31 135-20 200 62" fill="none" stroke="#18b3b1" stroke-width="20" stroke-linecap="round"/>
+    <path d="M214 192c-42 22-71 61-74 121" fill="none" stroke="#18b3b1" stroke-width="20" stroke-linecap="round"/>
+    <path d="M242 146c0 0 18 83 25 116 7 35 34 70 79 84" fill="none" stroke="#18b3b1" stroke-width="20" stroke-linecap="round"/>
+    <circle cx="227" cy="122" r="27" fill="#fff" opacity="0.98"/>
+    <circle cx="242" cy="120" r="8" fill="#18b3b1"/>
+
+    <path d="M338 146c17 0 31 13 31 30 0 17-14 32-31 32-18 0-31-15-31-32 0-17 13-30 31-30Z" fill="#0d2e45" opacity="0.2"/>
+    <path d="M334 168c12 0 22 10 22 23s-10 23-22 23-22-10-22-23 10-23 22-23Z" fill="#fff" opacity="0.9"/>
+    <path d="M246 217c36-34 84-41 121-21 19 10 34 25 46 44-22 2-46 13-62 34-15 20-22 43-29 62-13-30-32-56-62-80-10-8-21-17-34-26Z" fill="#fff" opacity="0.92"/>
+
+    <path d="M251 266c33-15 79-16 122 0" fill="none" stroke="#f8fcff" stroke-width="16" stroke-linecap="round"/>
+    <path d="M233 320c30-34 62-52 104-52 40 0 71 14 95 48" fill="none" stroke="#0d2e45" stroke-width="16" stroke-linecap="round" opacity="0.7"/>
+  </g>
 </svg>
