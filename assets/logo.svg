@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Logo Seguridad y Talento">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f2f4d"/>
+      <stop offset="100%" stop-color="#1c7b77"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.96"/>
+      <stop offset="100%" stop-color="#dff6f4" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="42" fill="url(#bg)"/>
+  <circle cx="100" cy="82" r="44" fill="url(#panel)" opacity="0.96"/>
+  <path d="M100 44c18 0 32 14 32 32 0 12-7 22-17 28-8 5-13 12-15 22h-2c-2-10-7-17-15-22-10-6-17-16-17-28 0-18 14-32 32-32Z" fill="#ff3366"/>
+  <path d="M64 131c8-17 23-27 36-27 13 0 28 10 36 27v19H64v-19Z" fill="#ffffff" opacity="0.95"/>
+  <path d="M58 146h84v12H58z" fill="#2ca6a4" opacity="0.9"/>
+  <path d="M72 66l14 13 25-25 18 18" fill="none" stroke="#0f2f4d" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>
+</svg>
