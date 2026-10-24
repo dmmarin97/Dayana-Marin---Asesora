@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Auditoría y gestión de riesgos">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#eef8fb"/>
+      <stop offset="100%" stop-color="#ebfaf6"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <rect x="88" y="102" width="620" height="290" rx="30" fill="#ffffff" opacity="0.9"/>
+  <circle cx="265" cy="220" r="120" fill="#eaf7f4"/>
+  <circle cx="265" cy="220" r="74" fill="none" stroke="#15a8aa" stroke-width="18"/>
+  <path d="M325 278l88 82" stroke="#0f2f4d" stroke-width="18" stroke-linecap="round"/>
+  <path d="M170 332c22-52 59-86 98-86 46 0 86 35 104 86H170Z" fill="#0f2f4d" opacity="0.9"/>
+  <rect x="435" y="152" width="180" height="18" rx="9" fill="#0f2f4d" opacity="0.82"/>
+  <rect x="435" y="196" width="214" height="18" rx="9" fill="#39b7b9" opacity="0.73"/>
+  <rect x="435" y="240" width="160" height="18" rx="9" fill="#39b7b9" opacity="0.47"/>
+  <path d="M440 322h150" stroke="#ff3b74" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="440" cy="322" r="8" fill="#ff3b74"/>
+  <circle cx="520" cy="322" r="8" fill="#ff3b74"/>
+  <circle cx="600" cy="322" r="8" fill="#ff3b74"/>
+</svg>
